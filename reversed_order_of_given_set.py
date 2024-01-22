@@ -10,3 +10,9 @@
 # Given set of numbers
 set_number = 7563
 print("The set of number is:", set_number)
+
+# Setting up a variable and convert the given set of numbers to str
+set_number_str = str(set_number)[::-1]
+
+# Displaying the output
+print("Reversed order of the set:", set_number_str)
