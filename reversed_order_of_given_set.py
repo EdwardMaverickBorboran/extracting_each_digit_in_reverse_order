@@ -15,4 +15,4 @@ print("The set of number is:", set_number)
 set_number_str = str(set_number)[::-1]
 
 # Displaying the output
-print("Reversed order of the set:", set_number_str)
+print("Reversed order of the set:", " ".join(set_number_str))
