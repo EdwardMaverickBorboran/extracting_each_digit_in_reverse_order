@@ -8,10 +8,10 @@
 # pseudocode
 
 # Given set of numbers
-set_number = 7563
+set_number = int(input("Enter a list of numbers:"))
 print("The set of number is:", set_number)
 
-# Setting up a variable and convert the given set of numbers to str
+# Setting up a variable and converting the given set of numbers to string
 set_number_str = str(set_number)[::-1]
 
 # Displaying the output
